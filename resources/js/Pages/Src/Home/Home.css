@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.titulo-home{
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    border-radius: 15px;
+}
+
+.carrucel{
+    height: 70%;
+    pointer-events: none;
+    width: 70%;
+}
+  

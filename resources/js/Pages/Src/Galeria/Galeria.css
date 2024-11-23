@@ -1,0 +1,26 @@
+body{
+  font-size: medium;
+}
+.articulo-titulo{
+    background-color: black;
+    color: antiquewhite;
+    font-family: fantasy;
+    border-radius: 15px;
+}
+
+  @media (min-width: 768px) {
+    .art-card {
+      flex: 1 1 calc(33.33% - 20px); /* 3 columnas en pantallas medianas */
+    }
+  }
+
+  .row-contenedor-cards{
+    display: flex;
+    justify-content: center;
+}
+
+@media screem and (max-width:700px){
+    .row-contenedor-cards{
+      display: inline-block;
+    } 
+}

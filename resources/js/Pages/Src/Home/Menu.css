@@ -1,0 +1,64 @@
+/* Estilos básicos del menú */
+.menu-container {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .menu-items {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  }
+  
+  .menu-items li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .menu-items {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      width: 200px;
+      border-radius: 8px;
+      padding: 10px;
+    }
+  
+    .menu-items.open {
+      display: flex;
+    }
+  
+    .menu-items li {
+      margin: 10px 0;
+    }
+  }

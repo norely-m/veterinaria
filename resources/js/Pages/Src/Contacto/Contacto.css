@@ -1,0 +1,14 @@
+.contacto-titulo{
+    background-color: black;
+    color: antiquewhite;
+    font-family: fantasy;
+    border-radius: 15px;
+    
+}
+
+.banner{
+    height: 70%;
+    pointer-events: none;
+    width: 70%;
+    border-radius: 15px;
+}
